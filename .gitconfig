@@ -1,0 +1,12 @@
+[alias]
+	st      = status
+	cleanup = "!git restore --staged . && git restore . && git checkout -- ."
+	d       = diff
+	main    = checkout main && git fetch origin main && git rebase origin/main
+	standup = "!git log --author $USER --since 'yesterday midnight' --oneline"
+	git     = !exec git
+
+[user]
+	email   = nevettebailey@gmail.com
+	user    = Nevette Bailey
+	name    = nevette-bailey
