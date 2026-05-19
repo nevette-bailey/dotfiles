@@ -1,0 +1,14 @@
+/* Force Tasks plugin edit button to always be visible, not hover-only */
+.tasks-list-text .tasks-edit,
+.task-list-item .tasks-edit,
+span.tasks-edit {
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+/* Remove any hover-triggered display rules */
+.task-list-item:not(:hover) .tasks-edit {
+    opacity: 1 !important;
+    display: inline !important;
+}
+

@@ -1,0 +1,5 @@
+/* Hide the "Filter by description" search box in Tasks plugin query results */
+.plugin-tasks-toolbar label,
+.plugin-tasks-toolbar input {
+    display: none !important;
+}
